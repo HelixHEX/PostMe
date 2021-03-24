@@ -35,3 +35,7 @@ TWITTER_ACCESS_TOKEN_SECRET=     //from twitter developer portal
 * Add webhook
 
 You're all done!
+
+## License 
+
+See the [LICENSE](./LICENSE) file for licensing information.
