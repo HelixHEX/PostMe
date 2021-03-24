@@ -2,6 +2,10 @@
 
 # 🏴 PostMe
 
+## Description
+- A nice way to take "building in public" to another level
+- Any commits made to connected repositories will be tweeted out on Twitter on your account
+
 ## Lcoal Development
 
 * Clone this project
@@ -25,8 +29,9 @@ TWITTER_ACCESS_TOKEN_SECRET=     //from twitter developer portal
 * Run [`ngrok`](https://ngrok.com/) | `ngrok http 5000`
 
 ### Github Setup
-* Add ngrok url to github repository webhook
+* Add ngrok url to github repository webhook | `NGROK BASE URL + /api/v1/github/newcommit`
 * Change content type to `application/json`
+* Add github secret from `.env` file
 * Add webhook
 
 You're all done!
